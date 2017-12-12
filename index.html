@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<title>Frank Diaz Project 3</title>
+</head>
+<body>
+<div class="main">
+<h1>Federal Tax Income Calculator</h1>
+<h2>Hello There!</h2>
+<p>Please fill the information below to calculate how much you owe in taxes.</p>
+<form>
+<h3>Name</h3>
+<p>First Name:<input type="text" placeholder=" "></p>
+<p>Last Name:<input type="text" placeholder=" "></p><br>
+<h3>Marital Status</h3>
+<input type="radio" name="single" value="1"><label>Single</label><br>
+<input type="radio" name="married" value="2"><label>Married</label><br>
+<input type="radio" name="head" value="3"><label>Head of Household</label>
+<h3>Income</h3>
+<p>Income:<input type="text" class="incomeInput" placeholder=" "></p>
+<input type="button" onclick="calculateTax()" value="Calculate">
+<p class="tax-result">Your Taxes Owed Here.</p>
+</form>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
